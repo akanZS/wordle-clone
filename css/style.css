@@ -75,3 +75,33 @@ header {
     box-shadow: inset 0 0 0 2px #878a8c;
     color: #000;
 }
+
+.keypad{
+    margin-top: 5%;
+    border: 3px solid black;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    border-radius: 10px;
+}
+
+.keypad .keys{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.keys input{
+    margin-right: 15px;
+    margin-top: 10px;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 8px;
+}
+
+.keys .spaces{
+    width: 10rem;
+}
+
+.keys input:hover{
+    box-shadow: #000;
+}
